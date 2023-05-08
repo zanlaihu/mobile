@@ -22,7 +22,7 @@ const MobileHome = () => {
       {isMobile ? (
         <div className={`${styles.mobile}`}>
           <div className={`${styles.inner}`}>
-            <div className={`${styles.title} ${styles.name}`}>Zanlai's App</div>
+            <div className={`${styles.title} ${styles.name}`}>Zanlai's Mobile App</div>
             <Choice title={'Lottery Wheel / Lucky Draw / 大转盘'} />
             <div className={`${styles.line}`}></div>
             <div className={`${styles.githubContent}`}>

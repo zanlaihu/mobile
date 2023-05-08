@@ -1,8 +1,8 @@
 import { useLayoutEffect, useState } from 'react'
+import arrow from 'src/asset/img/right-arrow.svg'
 import Choice from '../../component/List'
 import github from './github.svg'
 import styles from './index.module.css'
-import arrow from 'src/asset/img/right-arrow.svg'
 
 const MobileHome = () => {
   const [isMobile, setIsMobile] = useState(false)
@@ -22,14 +22,23 @@ const MobileHome = () => {
       {isMobile ? (
         <div className={`${styles.mobile}`}>
           <div className={`${styles.inner}`}>
-            <div className={`${styles.title} ${styles.name}`}>Zanlai's Mobile App</div>
-            <Choice title={'Lottery Wheel / Lucky Draw / 大转盘'} />
+            <div className={`${styles.title} ${styles.name}`}>
+              Zanlai's Mobile App
+            </div>
+            <Choice
+              title={'Lottery Wheel / Lucky Draw / 大转盘'}
+              link={'/mobile/lottery'}
+            />
             <div className={`${styles.line}`}></div>
-            <div className={`${styles.githubContent}`}>
+            <a
+              className={`${styles.githubContent}`}
+              href='https://github.com/zanlaihu/mobile'
+              target='_blank'
+            >
               <img src={github} alt='github' className={`${styles.github}`} />
               <div className={`${styles.view}`}>View Code on GitHub </div>
-              <img src={arrow} alt={arrow} className={`${styles.arrow}`}/>
-            </div>
+              <img src={arrow} alt={arrow} className={`${styles.arrow}`} />
+            </a>
           </div>
         </div>
       ) : (

@@ -2,7 +2,7 @@ import { useLayoutEffect, useState } from 'react'
 import arrow from 'src/asset/img/right-arrow.svg'
 import Choice from '../../component/List'
 import github from './github.svg'
-import styles from './index.module.css'
+import styles from './index.module.scss'
 
 const MobileHome = () => {
   const [isMobile, setIsMobile] = useState(false)
@@ -34,6 +34,7 @@ const MobileHome = () => {
               className={`${styles.githubContent}`}
               href='https://github.com/zanlaihu/mobile'
               target='_blank'
+              rel="noreferrer"
             >
               <img src={github} alt='github' className={`${styles.github}`} />
               <div className={`${styles.view}`}>View Code on GitHub </div>

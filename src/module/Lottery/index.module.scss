@@ -1,0 +1,27 @@
+.content {
+  background-image: radial-gradient(
+    145.05% 100% at 50% 0,
+    #1d2b41 0,
+    #020509 57.38%,
+    #0f1a29 88.16%
+  );
+  min-height: 100vh;
+}
+
+.title {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  /* stylelint-disable-next-line value-no-vendor-prefix */
+  background-image: radial-gradient(
+    138.06% 1036.51% at 95.25% -2.54%,
+    #7ed4fd 14.06%,
+    #709df7 51.02%,
+    #4d78ef 79.09%
+  );
+  /* stylelint-disable-next-line property-no-vendor-prefix */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

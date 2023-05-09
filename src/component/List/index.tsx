@@ -1,6 +1,6 @@
-import { Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import arrow from 'src/asset/img/right-arrow.svg'
-import styles from './index.module.css'
+import styles from './index.module.scss'
 
 interface ChoiceProps {
   title: string

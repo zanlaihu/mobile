@@ -19,14 +19,15 @@
   border-radius: 1rem;
   align-items: center;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .content:hover {
   background-color: #94a3b826;
 }
 
-.content:hover .title {
-  opacity: 1;
+.content:hover .dot {
+  background-color: aquamarine;
 }
 
 .dot {
@@ -35,10 +36,11 @@
   background-color: #94a3b8;
   border-radius: 100%;
   margin-right: 12px;
+  transition: all 0.2s;
 }
 
 .title {
-  color: #bcd0eb;
+  color: #cbe2ff;
   font-size: 14px;
   font-weight: 500;
   transition: all 0.2s;

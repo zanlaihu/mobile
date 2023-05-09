@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 import { Route, Routes } from 'react-router-dom';
 import Lottery from './module/Lottery';
 import MobileHome from './pages/home';

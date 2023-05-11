@@ -1,0 +1,93 @@
+.lucky-back-content {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.lucky-back-content li {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  list-style-type: none;
+}
+
+.lucky-back-content li:nth-child(1) {
+  top: 27px;
+  left: 118px;
+  transform: rotate(0deg);
+  transform-origin: 32px 123px;
+}
+
+.lucky-back-content li:nth-child(2) {
+  top: 27px;
+  left: 118px;
+  transform: rotate(60deg);
+  transform-origin: 32px 123px;
+}
+
+.lucky-back-content li:nth-child(3) {
+  top: 27px;
+  left: 118px;
+  transform: rotate(120deg);
+  transform-origin: 32px 123px;
+}
+
+.lucky-back-content li:nth-child(4) {
+  top: 27px;
+  left: 118px;
+  transform: rotate(180deg);
+  transform-origin: 32px 123px;
+}
+
+.lucky-back-content li:nth-child(5) {
+  top: 27px;
+  left: 118px;
+  transform: rotate(240deg);
+  transform-origin: 32px 123px;
+}
+
+.lucky-back-content li:nth-child(6) {
+  top: 27px;
+  left: 118px;
+  transform: rotate(300deg);
+  transform-origin: 32px 123px;
+}
+
+.lucky-back-img {
+  width: 300px;
+}
+
+.lucky-prize-list {
+  width: 64px;
+  height: 64px;
+}
+
+.lucky-point-wrap {
+  position: absolute;
+  top: 121px;
+  left: 136px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.lucky-point {
+  width: 28px;
+}
+
+.lucky-play-wrap {
+  position: absolute;
+  top: 120px;
+  left: 118px;
+  z-index: 6;
+  cursor: pointer;
+}
+
+.lucky-play {
+  width: 64px;
+}
+
+.lucky-grey {
+  filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+}

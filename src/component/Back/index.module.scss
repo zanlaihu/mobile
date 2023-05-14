@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0 20px 20px;
+
+  .back {
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+  }
+
+  .text {
+    font-weight: 600;
+    font-size: 13px;
+    /* stylelint-disable-next-line value-no-vendor-prefix */
+    background-image: radial-gradient(
+      138.06% 1036.51% at 95.25% -2.54%,
+      #7ed4fd 14.06%,
+      #709df7 51.02%,
+      #4d78ef 79.09%
+    );
+    /* stylelint-disable-next-line property-no-vendor-prefix */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
